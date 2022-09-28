@@ -23,8 +23,8 @@ class TestCapicua(unittest.TestCase):
         self.assertFalse(capicua("Hola"))
     
     def test_not_capicua_sentence(self):
-        self.assertFalse(capicua("Hola mundo"))
-        self.assertFalse(capicua("Palabra larga"))
+        self.assertFalse(capicua("La mejor clase es computacion"))
+        self.assertFalse(capicua("Esto no es capicua"))
         
 if __name__ == "__main__":
     unittest.main()
