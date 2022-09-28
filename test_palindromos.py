@@ -21,10 +21,10 @@ class TestCapicua(unittest.TestCase):
         self.assertTrue(capicua("Ana"))
         self.assertTrue(capicua("Reconocer"))
         self.assertFalse(capicua("Hola"))
-    
-    def test_not_sentence_capicua(self):
+
+    def test_n_capicua_sentence(self):
         self.assertFalse(capicua("La mejor clase es computacion"))
-        self.assertFalse(capicua("Esto no es capicua"))
-        
+
+
 if __name__ == "__main__":
     unittest.main()
