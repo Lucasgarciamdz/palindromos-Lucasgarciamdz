@@ -22,7 +22,7 @@ class TestCapicua(unittest.TestCase):
         self.assertTrue(capicua("Reconocer"))
         self.assertFalse(capicua("Hola"))
     
-    def test_not_capicua_sentence(self):
+    def test_not_sentence_capicua(self):
         self.assertFalse(capicua("La mejor clase es computacion"))
         self.assertFalse(capicua("Esto no es capicua"))
         
