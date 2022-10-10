@@ -1,6 +1,3 @@
-import unittest
-
-
 def capicua(palabra):
     palabra = palabra.replace(" ", "")
     palabra = palabra.lower()
